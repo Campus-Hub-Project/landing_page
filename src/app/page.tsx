@@ -1,4 +1,3 @@
-'use server'
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
@@ -6,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FcGoogle } from 'react-icons/fc'
 
-const HomePage = async () => {
+const HomePage = () => {
   return (
     <section className='bg-hub-white h-screen w-11/12 flex py-12'>
       <Card className='rounded border-none shadow-lg w-1/2 flex flex-col justify-center bg-hub-white'>
