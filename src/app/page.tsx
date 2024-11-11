@@ -35,7 +35,7 @@ const HomePage = async () => {
       </Card>
       <Card className='rounded border-none shadow-lg bg-hub-white relative overflow-hidden h-full w-1/2 flex flex-col justify-center items-center'>
         <Image
-          src='/landing-page-image.jpg'
+          src='./landing-page-image.jpg'
           alt='Imagem vetorial de um grupo de pessoas'
           width={2000}
           height={2000}
