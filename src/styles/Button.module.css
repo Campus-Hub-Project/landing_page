@@ -1,0 +1,12 @@
+.link-as-button-must-have {
+    @apply rounded-sm text-center flex items-center justify-center h-12 px-4
+    bg-blues-three text-blues-seven hover:bg-blues-two hover:text-blues-six
+}
+
+.blues-button {
+    @apply bg-blues-three text-blues-seven hover:bg-blues-two hover:text-blues-six
+}
+
+.grays-button {
+    @apply bg-grays-three text-grays-seven hover:bg-grays-two hover:text-grays-six
+}
