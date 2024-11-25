@@ -1,4 +1,3 @@
-'use server'
 import React from 'react'
 import BasicLayout from '../components/shared/layouts/BasicLayout'
 import {
@@ -12,7 +11,7 @@ import BgImageLayout from '../components/shared/layouts/BgImageLayout'
 import LinkButton from '../components/shared/button/LinkButton'
 import Image from 'next/image'
 
-const HomePage = async () => {
+const HomePage = () => {
   return (
     <BasicLayout>
       <div className='w-full h-screen flex flex-col items-center'>
