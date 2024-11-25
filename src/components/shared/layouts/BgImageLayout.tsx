@@ -1,8 +1,6 @@
-'use server'
-
 import React from 'react'
 
-const BgImageLayout = async ({ children }: { children: React.ReactNode }) => {
+const BgImageLayout = ({ children }: { children: React.ReactNode }) => {
 
     return (
         <section className='relative bg-center w-full h-full
