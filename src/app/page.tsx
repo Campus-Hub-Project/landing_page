@@ -28,8 +28,8 @@ const HomePage = () => {
               </MiddleCardDescription>
             </MiddleCardHeader>
             <MiddleCardFooter isLP>
-              <LinkButton to='/auth/signin'>Entrar</LinkButton>
-              <LinkButton to='/auth/signup' isGray>Criar conta</LinkButton>
+              <LinkButton to=''>Entrar</LinkButton>
+              <LinkButton to='' isGray>Criar conta</LinkButton>
             </MiddleCardFooter>
           </BgImageLayout>
         </MiddleCard>
